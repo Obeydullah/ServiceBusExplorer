@@ -281,7 +281,7 @@ namespace ServiceBusExplorer.Forms
             GetServiceBusNamespaceSettingsFromConfiguration();
             ReadEventHubPartitionCheckpointFile();
             UpdateSavedConnectionsMenu();
-            DisplayNewVersionInformation();
+            //DisplayNewVersionInformation();
 
             WriteToLog(logMessage);
         }
@@ -4430,7 +4430,7 @@ namespace ServiceBusExplorer.Forms
                             serviceBusTreeView.Nodes.Remove(topicListNode);
                         }
                     }
-                    queueListNode?.Expand();
+                    //queueListNode?.Expand();
                     topicListNode?.Expand();
                     eventHubListNode?.Expand();
                     notificationHubListNode?.Expand();
